@@ -1,0 +1,22 @@
+# System Files
+desktop.ini
+Thumbs.db
+.DS_Store
+
+# Temp files
+.tmp.driveupload/
+*.tmp
+temp/
+
+# Node.js
+node_modules/
+package-lock.json
+
+# Scratch scripts
+extract.js
+test.js
+inject_projects.py
+generate_assets.js
+
+# App Data (Antigravity)
+.gemini/
