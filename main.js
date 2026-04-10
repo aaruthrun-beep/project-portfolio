@@ -46,8 +46,8 @@ const projects = [
         "date": "2018 · GRADE 7",
         "category": "school",
         "tags": [
-            "FIRST MECHATRONICS",
-            "H-BRIDGE"
+            "FIRST MECHATRONICS"
+
         ],
         "shortDesc": "My first mechatronics build — a wired manually controlled rover using salvaged RO pump motors and discrete transistor circuits.",
         "fullDesc": "This project marks my first hands-on experience in mechatronics, built during Grade 7 using salvaged components from a discarded RO water purifier.\n\nThe rover was powered by 12V DC motors taken from RO pump systems. Motion control was achieved through a wired setup using toggle switches, where polarity reversal was used to control direction (forward and reverse).\n\nMotor driving was implemented using basic transistor-based switching circuits, as dedicated motor driver ICs were not used.\n\nI also experimented with simple environmental sensing circuits using BC547 transistors configured in amplification stages to detect changes in temperature, moisture, and fire conditions. These were not highly accurate but were able to indicate environmental variations.\n\nThe entire system was manually fabricated and assembled without prior formal knowledge of electronics or robotics.\n\nThis project introduced me to fundamental concepts such as DC motor control, polarity switching, basic analog electronics, and system-level integration."
@@ -63,7 +63,7 @@ const projects = [
             "smart rover/IMG-20200901-WA0000.jpg",
             "smart rover/IMG-20200901-WA0003.jpg",
             "smart rover/IMG-20200901-WA0004.jpg",
-            "smart rover/VID-20190812-WA0006.mp4",
+            "https://drive.google.com/file/d/19HA0UDf4_SR6jmkufVUmYPXSJ7pScMna/view",
             "smart rover/WhatsApp Image 2026-03-19 at 9.12.03 PM.jpeg",
             "smart rover/WhatsApp Image 2026-03-19 at 9.12.04 PM (1).jpeg",
             "smart rover/WhatsApp Image 2026-03-19 at 9.12.04 PM.jpeg",
@@ -79,31 +79,32 @@ const projects = [
         "date": "2018-2019 · GRADE 7",
         "category": "school",
         "tags": [
-            "ORIGIN BUILD",
-            "SERVO ARM",
-            "PVC FRAME"
+            "Early Robotics",
+            "DC Motor Actuation",
+            "Thread Drive",
+            "Basic Fabrication"
         ],
-        "shortDesc": "The original arm — a deliberate 'Version Zero' that documented every failure as a future design requirement.",
-        "fullDesc": "Labeled 'V0' because it precedes all real versions, this manipulator was my introduction to structural mechanics and joint loading. Built from PVC pipe flanges and cheap SG90 servos, it taught me the hard way that structural rigidity is non-negotiable. I documented every joint flex, every servo stall, and every jittery movement. While it couldn't lift anything heavier than a pen, it provided the empirical data I needed to build my first industrial-power arm later. It represents the start of my iterative design philosophy: fail fast, document everything, and build better next time.",
-        "images": [
+        "shortDesc": "My first robotic arm — a basic DC motor-driven manipulator built using simple thread-based actuation and manual fabrication.",
+        "fullDesc": "This project was my first attempt at building a robotic manipulator during Grade 7. The system was constructed using simple materials and basic fabrication methods without any formal design knowledge.\n\nActuation was achieved using DC motors, with motion transmitted through thread/lead-based mechanisms to create joint movement. The structure was assembled using basic mechanical fastening methods such as bolts and improvised joints.\n\nThe system had significant limitations in terms of stability, control, and precision. There was noticeable play in the joints, inconsistent motion, and very low load-handling capability. However, it successfully demonstrated basic multi-joint movement using motor-driven actuation.\n\nThis project introduced me to fundamental concepts such as motion transmission, mechanical linkage behavior, and the challenges of controlling multiple axes using simple drive systems.\n\nIt marked the starting point of my robotics journey and led to more advanced robotic arm designs in later projects."
+        , "images": [
             "robot arm 1/WhatsApp Image 2026-03-03 at 5.03.57 PM.jpeg"
         ]
     },
     {
         "id": 3,
-        "title": "Vale Kuttu (Multi-Tool)",
-        "folder": "veel koothu",
+        "title": "Vel Kotthu (Multi-Tool)",
+        "folder": "vel koothu",
         "year": "2019",
         "date": "2019-2020 · GRADE 8",
         "category": "school",
         "tags": [
-            "ORIGIN ARTIFACT",
-            "HAND FORGE",
-            "EN8 STEEL"
+
+            "HAND FORGE"
+
         ],
-        "shortDesc": "The first tool made with my father — heat-forged steel, oil-quenched by firelight, and still used every day.",
-        "fullDesc": "The Vale Kuttu—named after the curved Tamil 'Vel' spear—is the founding artifact of my journey. Designed by my father and forged by both of us, it is raw, hand-shaped EN8 carbon steel. We rough-cut the plate, ground the edge to a razor-sharp curve, and heat-treated it on a coal forge until it glowed cherry-red before quenching it in used engine oil. It is a multi-purpose agricultural tool for cutting, scraping, and tilling. It stands as a reminder that before the silicon and the sensors, there was the steel and the soil. It is still in daily use on our farm today.",
-        "images": [
+        "shortDesc": "The first tool made with my father — hand-forged steel, oil-quenched, and still used daily on our farm.",
+        "fullDesc": "The Vel kotthu is named after the curved Tamil 'Vel' spear—is the founding artifact of my journey. Designed by my father and forged by both of us, it is made from hand-shaped EN8 carbon steel.\n\nWe rough-cut the steel plate, shaped the profile manually, and ground the edge into a curved cutting form. Heat treatment was performed using a coal forge, where the metal was heated until red-hot and then quenched in used engine oil.\n\nThe tool serves as a multi-purpose agricultural implement for cutting, scraping, and soil work. It represents a purely mechanical solution built directly for field use.\n\nMore than a project, it marks the beginning of my journey—before electronics and automation—rooted in materials, tools, and real-world application. It is still in daily use on our farm today."
+        , "images": [
             "veel koothu/IMG-20210305-WA0000.jpg",
             "veel koothu/IMG-20210306-WA0007.jpg",
             "veel koothu/IMG-20210306-WA0009.jpg",
@@ -121,14 +122,14 @@ const projects = [
             "veel koothu/WhatsApp Image 2026-04-09 at 5.00.50 PM.jpeg",
             "veel koothu/WhatsApp Image 2026-04-09 at 5.00.52 PM.jpeg",
             "veel koothu/WhatsApp Image 2026-04-09 at 5.00.57 PM.jpeg",
-            "veel koothu/WhatsApp Video 2026-03-27 at 9.35.05 PM.mp4",
-            "veel koothu/WhatsApp Video 2026-04-09 at 5.00.59 PM.mp4",
-            "veel koothu/WhatsApp Video 2026-04-09 at 5.01.02 PM.mp4"
+            "https://drive.google.com/file/d/11jDjc8wvOSIDo512-em06ApCxxe8phGN/view",
+            "https://drive.google.com/file/d/1s-kLi6IU8mE-PVoJPgiJ_1P6XU6pGSdc/view",
+            "https://drive.google.com/file/d/1I1lUDPXB6jt-JHchnMv1nkXN9U-nLWl4/view"
         ]
     },
     {
         "id": 4,
-        "title": "Buttermilk Making Machine",
+        "title": "Butter extraction Machine",
         "folder": "butter mil making mac hine",
         "year": "2019",
         "date": "2019-2020 · GRADE 8",
@@ -138,8 +139,8 @@ const projects = [
             "GEARMOTOR",
             "ITERATIVE DESIGN"
         ],
-        "shortDesc": "First production run — 4 units built for relatives using a sealed stainless drum and gearmotor at 180 RPM.",
-        "fullDesc": "During the lockdown, I watched my grandmother churn buttermilk by hand for 30 minutes every morning. I calculated the necessary shear force and RPM required to separate cream efficiently without aeration. The result was this machine: a food-grade sealed stainless steel drum driven by a high-torque gearmotor at a steady 180 RPM. After building the first unit for my grandmother, word spread through the family, and I ended up building four units total. This was my first experience with low-volume manufacturing and designing for a non-technical end-user (my family).",
+        "shortDesc": "Built 4 buttermilk machines using a sealed stainless steel drum with a motor-driven churning system at ~180 RPM.",
+        "fullDesc": "During the COVID lockdown, I observed my grandmother manually churning buttermilk for around 30 minutes every morning. I analyzed the process to determine a suitable rotational speed for consistent churning without excessive aeration.\n\nI designed a compact buttermilk making machine using a food-grade sealed stainless steel drum with a motor-driven shaft operating at approximately 180 RPM. The system was kept simple and reliable, with direct coupling between the motor and the churning mechanism, making it easy to use and maintain for non-technical users.\n\nAfter successfully building the first unit for home use, I produced three additional units for relatives based on demand. This project was my first experience with practical product design, iterative improvements, and low-volume manufacturing."
         "images": [
             "butter mil making mac hine/WhatsApp Image 2026-04-09 at 4.59.15 PM.jpeg",
             "butter mil making mac hine/WhatsApp Image 2026-04-09 at 4.59.27 PM.jpeg",
@@ -157,15 +158,14 @@ const projects = [
         "category": "school",
         "tags": [
             "MANUAL AGRI",
-            "TOP-SOIL",
             "MECHANICS"
         ],
         "shortDesc": "Manual agricultural weeder designed for precise inter-row topsoil agitation.",
-        "fullDesc": "To solve the problem of quick weed control in narrow crop rows, I designed this high-leverage manual weeder. It uses a single large-diameter wheel to reduce rolling resistance on rough soil while concentrating the user's pushing force directly onto a set of interchangeable scraping tilling blades. The geometry was optimized for an upright posture to reduce lower-back strain. This project was my first venture into agricultural ergonomics, proving that even a tool with no motor requires precise mechanical design to be effective.",
+        "fullDesc": "To solve the problem of quick weed control in narrow crop rows, I designed this manual weeder. It uses a single large-diameter wheel to reduce rolling resistance on rough soil while concentrating the user's pushing force onto a set of interchangeable scraping tilling blades. The geometry was optimized for an upright posture to reduce lower-back strain. This project was my first venture into agricultural ergonomics, proving that even a tool with no motor requires precise mechanical design to be effective."
         "images": [
             "single wheel weeder/IMG-20210306-WA0011.jpg",
             "single wheel weeder/IMG-20210306-WA0012.jpg",
-            "single wheel weeder/WhatsApp Video 2026-03-27 at 9.35.13 PM.mp4"
+            "https://drive.google.com/file/d/1qlYxW2owric0YihaelTV7311McBhJmjX/view"
         ]
     },
     {
@@ -196,10 +196,10 @@ const projects = [
         "tags": [
             "AUTOMATION",
             "ECO DESIGN",
-            "TIMING CHAIN"
+
         ],
-        "shortDesc": "Automated 4-stage synchronized machine that produces eco-friendly paper pens from recycled stock.",
-        "fullDesc": "To combat plastic waste, I built this multi-stage automation system to mass-produce paper pens from recycled office paper. The machine uses a single timing chain to synchronize four distinct mechanical operations: paper feeding/cutting, core-refill insertion, adhesive application, and final rolling/pressing. It was a masterclass in synchronous mechanical logic—ensuring that every stage finishes its work at the exact millisecond the next stage begins. The machine can produce a finished, dried paper pen every 15 seconds.",
+        "shortDesc": "Multi-stage machine that produces eco-friendly paper pens from recycled paper.",
+        "fullDesc": "To combat plastic waste, I built a multi-stage machine to produce paper pens from recycled office paper. The machine carries out multiple operations including paper feeding/cutting, core-refill insertion, adhesive application, and rolling/pressing to form the final pen. This project helped me understand multi-stage machine design, basic automation flow, and mechanical integration.",
         "images": [
             "paper pen amking machine/20210417_094042.jpg",
             "paper pen amking machine/20210417_094046.jpg",
@@ -256,7 +256,7 @@ const projects = [
             "paper pen amking machine/WhatsApp Image 2026-03-27 at 9.31.57 PM.jpeg",
             "paper pen amking machine/WhatsApp Image 2026-04-09 at 5.00.33 PM.jpeg",
             "paper pen amking machine/WhatsApp Image 2026-04-09 at 5.00.57 PM.jpeg",
-            "paper pen amking machine/WhatsApp Video 2026-03-27 at 9.33.10 PM.mp4"
+            "https://drive.google.com/file/d/1Yzl8Ly1cSuNdDSsVZGp41fe-SlTHX38j/view"
         ]
     },
     {
@@ -268,15 +268,15 @@ const projects = [
         "category": "school",
         "tags": [
             "FLUID SYSTEMS",
-            "FOLDING BOOM",
-            "150L TANK"
+            ,
+
         ],
-        "shortDesc": "150L mobile sprayer with 6m folding boom — reduced field spraying time by over 50%.",
-        "fullDesc": "Spraying a full acre with a 15-liter backpack sprayer requires constant refills and massive physical exertion. I built this 150-liter autonomous trolley systems to solve that. It features a 12V diaphragm pump and a custom-fabricated 6-meter folding boom that can be collapsed for transport through narrow farm gates. The suspension uses high-floatation tires to prevent soil compaction. In real-world testing on our farm, it reduced the time taken for a single spray session from six hours to just over two, while eliminating the need for the operator to carry heavy fluid loads.",
+        "shortDesc": "150L mobile sprayer with folding boom for field spraying.",
+        "fullDesc": "Spraying a full acre with a 15-liter backpack sprayer requires constant refills and physical effort. I built this 150-liter trolley-mounted sprayer to address that. It uses a 12V diaphragm pump and a fabricated folding boom for wider coverage, which can be collapsed for transport through narrow farm paths. This project focused on improving spraying efficiency and reducing manual effort during farm operations.",
         "images": [
             "mobile sprayer/WhatsApp Image 2026-04-09 at 5.00.54 PM.jpeg",
             "mobile sprayer/WhatsApp Image 2026-04-09 at 5.00.55 PM.jpeg",
-            "mobile sprayer/WhatsApp Video 2026-03-27 at 9.18.33 PM.mp4"
+            "https://drive.google.com/file/d/1nnQYvH6G8Df_L_LxZPOJIu4QblTpyGUK/view"
         ]
     },
     {
@@ -288,11 +288,11 @@ const projects = [
         "category": "school",
         "tags": [
             "POWERED AGRI",
-            "GEAR REDUCTION",
-            "AUTOMATION"
+
+
         ],
-        "shortDesc": "Powered inter-row weeder with speed-proportional tine agitation.",
-        "fullDesc": "This was the powered evolution of my Grade 8 manual weeder. By adding a high-torque DC motor with a 10:1 planetary reduction and a lead-acid battery pack, I turned a manual struggle into a self-propelled tool. The motor doesn't just drive the wheel; it also powers an eccentric agitation subsystem that vibrates the tilling fingers in a cyclical 'dig-and-rake' motion. This proved to be vastly more effective at dislodging deep-rooted weeds compared to a static blade.",
+        "shortDesc": "Powered version of the single wheel weeder to reduce manual effort.",
+        "fullDesc": "This was the powered version of my Grade 8 single wheel weeder, which was working well but fully dependent on human effort. To reduce that, I attached a 350-watt DC motor from an electric cycle conversion kit. The motor has a built-in gearbox and was used to assist the weeding operation. This improved usability by reducing the physical effort required during operation.",
         "images": [
             "motorized single wheel weeder/WhatsApp Image 2026-03-27 at 9.17.40 PM.jpeg",
             "motorized single wheel weeder/WhatsApp Image 2026-03-27 at 9.17.41 PM.jpeg",
@@ -300,11 +300,11 @@ const projects = [
             "motorized single wheel weeder/WhatsApp Image 2026-03-27 at 9.17.48 PM.jpeg",
             "motorized single wheel weeder/WhatsApp Image 2026-03-27 at 9.18.00 PM.jpeg",
             "motorized single wheel weeder/WhatsApp Image 2026-04-09 at 4.59.18 PM.jpeg",
-            "motorized single wheel weeder/WhatsApp Video 2026-03-27 at 8.50.17 PM.mp4",
-            "motorized single wheel weeder/WhatsApp Video 2026-03-27 at 9.41.08 PM.mp4",
-            "motorized single wheel weeder/WhatsApp Video 2026-03-27 at 9.41.16 PM.mp4",
-            "motorized single wheel weeder/WhatsApp Video 2026-03-27 at 9.43.21 PM.mp4",
-            "motorized single wheel weeder/WhatsApp Video 2026-04-09 at 4.59.30 PM.mp4"
+            "https://drive.google.com/file/d/1_ditOojxiATHmztEERZ-H5xXCF_jFca8/view",
+            "https://drive.google.com/file/d/11_LJWPGtTbkmDio77TWUGAcP3hqISghB/view",
+            "https://drive.google.com/file/d/1yQp7mdMx4GsrG2lN4uiLAazGaJLx8jUK/view",
+            "https://drive.google.com/file/d/1Miw3EhunzmVwIzWhnPC9LNRKcNFH7XdZ/view",
+            "https://drive.google.com/file/d/1hOpyAG6P4PkFJTAP2lsQlyW_VJRxpnY0/view"
         ]
     },
     {
@@ -315,12 +315,12 @@ const projects = [
         "date": "2022-23 · GRADE 10/DIPLOMA",
         "category": "diploma",
         "tags": [
-            "SPRING TINES",
-            "PIANO WIRE",
+
+
             "PROTOTYPE"
         ],
-        "shortDesc": "Spring-steel tine hand weeder — the original proof-of-concept for mechanical inter-row agitation.",
-        "fullDesc": "Watching laborers painstakingly pluck weeds by hand between delicate seedlings inspired this tool. The design uses five 3mm piano-wire tines, heat-treated for maximum spring tension, arranged in a proprietary 'fan' geometry. When pushed through topsoil, the tines oscillate naturally, dislodging weeds without harming the crop's root zone. This simple mechanical insight—using the material's elasticity as a high-frequency oscillator—became the basis for my entire agricultural robotics research line.",
+        "shortDesc": "Handheld weeder using spring tines for inter-row weed removal.",
+        "fullDesc": "Watching laborers remove weeds manually between crops led to the development of this tool. It uses multiple piano-wire tines arranged to pass through topsoil and remove weeds while minimizing disturbance to nearby plants. This project served as an initial prototype to explore mechanical weeding concepts using flexible tine elements.",
         "images": [
             "hand heldfinger weeder/WhatsApp Image 2026-03-27 at 9.17.56 PM.jpeg",
             "hand heldfinger weeder/WhatsApp Image 2026-03-27 at 9.17.57 PM.jpeg",
@@ -328,13 +328,13 @@ const projects = [
             "hand heldfinger weeder/WhatsApp Image 2026-04-09 at 4.59.21 PM.jpeg",
             "hand heldfinger weeder/WhatsApp Image 2026-04-09 at 5.00.14 PM.jpeg",
             "hand heldfinger weeder/WhatsApp Image 2026-04-09 at 5.00.34 PM.jpeg",
-            "hand heldfinger weeder/WhatsApp Video 2026-03-27 at 9.17.45 PM.mp4",
-            "hand heldfinger weeder/WhatsApp Video 2026-03-27 at 9.18.46 PM.mp4",
-            "hand heldfinger weeder/WhatsApp Video 2026-03-27 at 9.20.59 PM.mp4",
-            "hand heldfinger weeder/WhatsApp Video 2026-03-27 at 9.22.46 PM.mp4",
-            "hand heldfinger weeder/WhatsApp Video 2026-04-09 at 4.58.40 PM.mp4",
-            "hand heldfinger weeder/WhatsApp Video 2026-04-09 at 4.59.35 PM.mp4",
-            "hand heldfinger weeder/WhatsApp Video 2026-04-09 at 5.00.36 PM.mp4"
+            "https://drive.google.com/file/d/180hlWMX3Ypo1zaGIoyjLwJxPr6MIFI5I/view",
+            "https://drive.google.com/file/d/1zuz7q9YPXMcjZ4MQ_T4NX2E59aTitUq1/view",
+            "https://drive.google.com/file/d/1IppFyBGrQBEWB9DZF_PDRPKUu8K7TKbs/view",
+            "https://drive.google.com/file/d/1UF1SaeMkFJhlu7J5iNzW_njg5tQ7PUPT/view",
+            "https://drive.google.com/file/d/1VcT1PTctaLUKWx50HI9AUMf1MPMUsEOG/view",
+            "https://drive.google.com/file/d/1bxQOZkchu3CWGTSAqXJrpDKeagC6upGI/view",
+            "https://drive.google.com/file/d/17h_ONTdoYeGpjL5xGT7yDfM1xRk-cpKi/view"
         ]
     },
     {
@@ -346,13 +346,13 @@ const projects = [
         "category": "diploma",
         "tags": [
             "GRBL",
-            "SYRINGE BEARINGS",
-            "CNC ORIGIN"
+
+
         ],
         "shortDesc": "First CNC machine built from wooden blocks and syringe-cap bearings.",
         "fullDesc": "Built from wooden boards, hot glue, and an absolute engineering first: linear bearings made from lubricated syringe-plunger caps. This was my first foray into CNC logic (GRBL firmware). It was technically inadequate, imprecise, and slow—but it was a machine that could move itself in two axes with 0.5mm repeatability. It proved that if you understand the underlying mathematics of motion, you can build a working industrial machine from hospital waste.",
         "images": [
-            "pen plotter 1/WhatsApp Video 2026-03-27 at 9.18.40 PM.mp4"
+            "https://drive.google.com/file/d/1-QXfZsW6vd7IOokMDhAM6747hGoxLs_G/view"
         ]
     },
     {
@@ -363,15 +363,14 @@ const projects = [
         "date": "2022-2023 · DIPLOMA YEAR 1",
         "category": "diploma",
         "tags": [
-            "BLDC MOTOR",
-            "40:1 WORM GEAR",
+
             "AGRI-TECH"
         ],
-        "shortDesc": "48V BLDC-powered auger with a 40:1 worm gear reduction for rocky laterite farm soil.",
-        "fullDesc": "Standard petrol augers are deafening and hard to start. I built this electric alternative using a 48V BLDC hub motor from a salvaged electric bike, coupled to a heavy-duty 40:1 worm gear reduction unit. The result is a silent, high-torque drilling rig capable of plunging 800mm deep into sun-hardened laterite soil for fence posts. It features a foot-pedal dead-man switch for safety and handles designed for maximum leverage against reaction torque.",
+        "shortDesc": "Motorized earth auger for drilling holes in farm soil.",
+        "fullDesc": "I built this motorized earth auger as an alternative to manual digging for applications like fence posts. It uses a DC motor (from an electric cycle conversion setup) to drive the auger mechanism. The system was designed to reduce manual effort and improve consistency while drilling holes in farm soil. This project focused on applying motorized assistance to a physically intensive agricultural task.",
         "images": [
-            "earth hogger/WhatsApp Video 2026-03-27 at 9.18.03 PM.mp4",
-            "earth hogger/WhatsApp Video 2026-03-27 at 9.18.53 PM.mp4"
+            "https://drive.google.com/file/d/18HwrMohWJ60XKIXgsRSkUD3desjyf1tJ/view",
+            "https://drive.google.com/file/d/1kMLFtRYaM5fUVRy5jxTnl8gWdT65FHdT/view"
         ]
     },
     {
@@ -382,14 +381,12 @@ const projects = [
         "date": "2023-2024 · DIPLOMA YEAR 2",
         "category": "diploma",
         "tags": [
-            "ECCENTRIC CAM",
-            "ERGONOMICS",
-            "SELF-REGULATING"
+
         ],
-        "shortDesc": "Wheel-based agricultural weeder with eccentric-cam agitation — wrist load offloaded to ground.",
-        "fullDesc": "This tool took the spring-tine concept and added a ground-driven eccentric cam. As you push the weeder, the wheels rotate a custom-ground steel cam that physically oscillates the finger array 30 times per meter. This makes the weeding action speed-proportional: the faster you walk, the more aggressive the tilling. By shifting the power source from the battery to the user's forward momentum, it achieved a high efficiency that made it a daily-driver on our farm.",
+        "shortDesc": "Battery-powered mobile finger weeder for reducing manual effort in inter-row weeding.",
+        "fullDesc": "This was a mobile version of the finger weeder concept, designed to reduce manual effort during operation. The system is powered by a battery-driven motor running at approximately 150 RPM. It was developed for practical use in farm conditions with a focus on ease of use and reducing operator strain.",
         "images": [
-            "mobile finger weeder/WhatsApp Video 2026-03-27 at 9.18.31 PM.mp4"
+            "https://drive.google.com/file/d/1FfscSrd71hr0IvVHbK4DpD64y44lBe9l/view"
         ]
     },
     {
@@ -427,7 +424,7 @@ const projects = [
             "robot arm 2/20240302_160440.mp4",
             "robot arm 2/WhatsApp Image 2026-04-09 at 5.00.31 PM.jpeg",
             "robot arm 2/WhatsApp Image 2026-04-09 at 5.00.42 PM.jpeg",
-            "robot arm 2/WhatsApp Video 2026-04-09 at 5.02.27 PM.mp4"
+            "https://drive.google.com/file/d/16vVSE631qEaBF9aOzRMjsB_GQAchmz2t/view"
         ]
     },
     {
@@ -438,19 +435,19 @@ const projects = [
         "date": "2023-2024 · DIPLOMA YEAR 2",
         "category": "diploma",
         "tags": [
-            "V-SLOT",
+
             "GRBL",
-            "AUTO-CALIBRATION"
+
         ],
-        "shortDesc": "V-slot gantry plotter with automatic paper-corner calibration and DXF-to-G-code pipeline.",
-        "fullDesc": "Moving from wood to 2020 V-slot aluminum extrusions, this second-generation plotter achieved 0.1mm precision. It used GT2 timing belts, NEMA 17 steppers, and a custom Python calibration script that automatically compensated for paper skew. It was my primary tool for generating the engineering blueprints for my final year diploma defense, bridging the gap between digital CAD and physical drawing.",
+        "shortDesc": "Low-cost V-plotter built using 28BYJ-48 stepper motors.",
+        "fullDesc": "This project is a low-cost V-plotter built using 28BYJ-48 stepper motors. The system was developed to achieve basic 2D plotting using inexpensive and easily available components. It focuses on simple motion control and cost-effective implementation of a plotting mechanism.",
         "images": [
             "pen plotter 2/ai_thumbnail.png",
             "pen plotter 2/WhatsApp Image 2026-04-10 at 8.33.08 AM.jpeg",
             "pen plotter 2/WhatsApp Image 2026-04-10 at 8.33.09 AM.jpeg",
             "pen plotter 2/WhatsApp Image 2026-04-10 at 8.33.20 AM.jpeg",
-            "pen plotter 2/WhatsApp Video 2026-04-10 at 12.11.22 AM.mp4",
-            "pen plotter 2/WhatsApp Video 2026-04-10 at 8.34.42 AM.mp4"
+            "https://drive.google.com/file/d/1d8PKTjU_nuFglAf3J8LW1rdnxcc_6y_c/view",
+            "https://drive.google.com/file/d/1yxfu0eDwek-MP6uXH23_leSXLa-MqK65/view"
         ]
     },
     {
@@ -465,8 +462,8 @@ const projects = [
             "ZERO-BACKLASH",
             "D-H KINEMATICS"
         ],
-        "shortDesc": "6-axis collaborative arm from industrial scrap with sand-tuned pseudo-bearings and full kinematics.",
-        "fullDesc": "The pinnacle of my diploma research. A full 6-axis arm built from heavy industrial scrap motors (steppers and geared DC) with zero-backlash joints achieved through 'sand-tuned pseudo-bearings'. I simulated the inverse kinematics in RoboDK using a custom D-H parameter model, matching the physical arm's movement to within 2% of the digital twin. It proved that professional-grade robotic accuracy is achievable with zero budget if you master the mathematics of kinematics.",
+        "shortDesc": "6-axis robotic arm built using scrap motors and components.",
+        "fullDesc": "This project is a 6-axis robotic arm built using a combination of scrap motors including stepper motors and geared DC motors. The system was developed to study multi-axis motion and basic robotic arm control. It represents a practical implementation of robotic mechanisms using available materials and components.",
         "images": [
             "robot arm 3/WhatsApp Image 2026-02-06 at 9.10.57 PM.jpeg",
             "robot arm 3/WhatsApp Image 2026-02-17 at 7.42.05 AM.jpeg",
@@ -505,13 +502,13 @@ const projects = [
             "robot arm 3/WhatsApp Image 2026-04-09 at 5.00.18 PM.jpeg",
             "robot arm 3/WhatsApp Image 2026-04-09 at 5.00.30 PM.jpeg",
             "robot arm 3/WhatsApp Image 2026-04-09 at 5.00.38 PM.jpeg",
-            "robot arm 3/WhatsApp Video 2026-04-09 at 5.00.40 PM.mp4",
-            "robot arm 3/WhatsApp Video 2026-04-09 at 5.00.42 PM.mp4",
-            "robot arm 3/WhatsApp Video 2026-04-09 at 5.00.44 PM.mp4",
-            "robot arm 3/WhatsApp Video 2026-04-09 at 5.00.48 PM.mp4",
-            "robot arm 3/WhatsApp Video 2026-04-09 at 5.00.53 PM.mp4",
-            "robot arm 3/WhatsApp Video 2026-04-10 at 8.31.30 AM.mp4",
-            "robot arm 3/WhatsApp Video 2026-04-10 at 8.32.28 AM.mp4"
+            "https://drive.google.com/file/d/1QDPdyV1WwWyaCB8HJkpNop6jGK6Dr0zu/view",
+            "https://drive.google.com/file/d/1HggYtrzABUxBqcIycukxqv3pTlU_4raL/view",
+            "https://drive.google.com/file/d/1ehnfic5Mu36QVL7HUnkezrg9ex0fxJzj/view",
+            "https://drive.google.com/file/d/1Qstdh4SymzSCcZqzhcEkE2p9hQFM4sbC/view",
+            "https://drive.google.com/file/d/1NSzzOhbVH0-lCWtT-EKo5XEkJMta5wQp/view",
+            "https://drive.google.com/file/d/1hJJTNvdxwJ6ua6KAGBylMhqjLTm-o0kd/view",
+            "https://drive.google.com/file/d/1zvphopBhE4Md_KZKvPTKzkRkvef_VCtY/view"
         ]
     },
     {
@@ -527,29 +524,29 @@ const projects = [
             "HEATED BED"
         ],
         "shortDesc": "First 3D printer build — telescopic drawer slide frame, self-etched PCB heated bed.",
-        "fullDesc": "Built during a period of component scarcity, this printer used industrial telescopic drawer slides as linear rails and a custom-etched PCB as the heated bed (which I calculated and etched in my own workshop). Running Marlin firmware on a salvaged board, it produced its own upgrade parts. It was the machine that manufactured the components for everything that followed, closing the loop on my self-sustaining workshop.",
+        "fullDesc": "Built during a period of component scarcity, this printer used industrial telescopic drawer slides as linear rails and a custom PCB as the heated bed . Running Marlin firmware on a arduino mega, it produced its own upgrade parts. It was the machine that manufactured the components for everything that followed, closing the loop on my self-sustaining workshop.",
         "images": [
             "printer 1/ai_thumbnail.png",
             "printer 1/asc.mp4",
             "printer 1/ascasc.jpeg",
-            "printer 1/ascasc.mp4",
+            "https://drive.google.com/file/d/1xcXZm5ViyOuT0yLc8l6hTEjIH5YBqYJD/view",
             "printer 1/das.jpeg",
             "printer 1/sad.jpeg",
-            "printer 1/sasac.mp4",
+            "https://drive.google.com/file/d/1VDQ6pHFxb8UFqHbdwHSgO4_52b8CvoNY/view",
             "printer 1/saxasc.jpeg",
             "printer 1/sdas.jpeg",
             "printer 1/sdx.jpeg",
             "printer 1/WhatsApp Image 2026-04-10 at 5.27.47 AM.jpeg",
             "printer 1/WhatsApp Image 2026-04-10 at 5.27.49 AM.jpeg",
-            "printer 1/WhatsApp Video 2026-04-10 at 8.35.35 AM.mp4",
-            "printer 1/WhatsApp Video 2026-04-10 at 8.35.36 AM.mp4",
-            "printer 1/WhatsApp Video 2026-04-10 at 8.38.26 AM.mp4",
-            "printer 1/WhatsApp Video 2026-04-10 at 8.40.56 AM.mp4",
-            "printer 1/WhatsApp Video 2026-04-10 at 8.41.54 AM.mp4",
-            "printer 1/WhatsApp Video 2026-04-10 at 8.41.55 AM.mp4",
-            "printer 1/WhatsApp Video 2026-04-10 at 8.41.56 AM.mp4",
-            "printer 1/WhatsApp Video 2026-04-10 at 8.41.58 AM.mp4",
-            "printer 1/WhatsApp Video 2026-04-10 at 8.41.59 AM.mp4"
+            "https://drive.google.com/file/d/1u4lApe8kK_3Ov_dTFP3loq4KenqgY3lj/view",
+            "https://drive.google.com/file/d/1doqgqRDMPWmi_715-ZDQ1RGugP6Uis0A/view",
+            "https://drive.google.com/file/d/13u9TQa-f6S8B7O_mO-hMqBpXAM1Fa1gD/view",
+            "https://drive.google.com/file/d/1OV9qq_uf5jCc-KSUkovszj06fRXWJw0V/view",
+            "https://drive.google.com/file/d/1Ff6DnnkzY-9pR5U5PKJNbV6ig4xEXJRO/view",
+            "https://drive.google.com/file/d/1cM9FvgfKyg2goeY3cqg5ucvxGBtLEUdb/view",
+            "https://drive.google.com/file/d/1wxH0Nc3eJU_L4FjLRoeCH3u_W9q39tXd/view",
+            "https://drive.google.com/file/d/1qx7DmXBEA79l-OKhdFhsTlLCTXK8WJu_/view",
+            "https://drive.google.com/file/d/1-fBvFLAnLhXzq4PUgsQci9xVaJMWi2Vc/view"
         ]
     },
     {
@@ -569,7 +566,7 @@ const projects = [
         "images": [
             "battle bot/drhdr.jpeg",
             "battle bot/rdydr.jpeg",
-            "battle bot/stt.mp4",
+            "https://drive.google.com/file/d/1hmCuC6gghbvKcXjaHq_-Oib-L4GP0xk5/view",
             "battle bot/WhatsApp Image 2026-04-09 at 11.39.18 PM.jpeg"
         ]
     },
@@ -590,7 +587,7 @@ const projects = [
         "images": [
             "line follower/WhatsApp Image 2026-04-10 at 12.48.24 PM (1).jpeg",
             "line follower/WhatsApp Image 2026-04-10 at 12.48.25 PM.jpeg",
-            "line follower/WhatsApp Video 2026-04-09 at 11.43.27 PM.mp4"
+            "https://drive.google.com/file/d/1eklvKnw1uSMSG6Jckttpa-OiJ2ogELp3/view"
         ]
     },
     {
@@ -601,12 +598,10 @@ const projects = [
         "date": "2025-2026 · ENGINEERING YEAR 2",
         "category": "college",
         "tags": [
-            "MICRO-FAB",
-            "E-WASTE CNC",
-            "5 MICRON"
+
         ],
-        "shortDesc": "Sub-millimeter precision mini CNC built entirely from salvaged DVD optical drive stages.",
-        "fullDesc": "The XY stages of this plotter were salvaged from two broken DVD optical drives. Because these drives are designed to read tracks just a few microns wide, their lead-screw assemblies offer incredible precision (theoretically <5 microns). By coupling them to A4988 drivers with 1/16th microstepping, I created a plotter capable of drawing technical icons the size of a grain of rice. It is the ultimate proof that precision isn't about cost; it's about the intelligence of the reclamation.",
+        "shortDesc": "millimeter precision mini CNC built entirely from salvaged DVD optical drive stages.",
+        "fullDesc": "The XY stages of this plotter were salvaged from two broken DVD optical drives. Because these drives are designed to read tracks just a few mmwide, their lead-screw assemblies offer incredible precision (theoretically <1 mm). By coupling them to A4988 drivers with 1/16th microstepping, I created a plotter capable of drawing technical icons the size of a grain of rice. It is the ultimate proof that precision isn't about cost; it's about the intelligence of the reclamation.",
         "images": [
             "pen plotter 3'/WhatsApp Image 2026-04-09 at 11.43.09 PM.jpeg",
             "pen plotter 3'/WhatsApp Image 2026-04-09 at 11.43.11 PM.jpeg",
@@ -614,29 +609,29 @@ const projects = [
             "pen plotter 3'/WhatsApp Image 2026-04-09 at 11.43.13 PM.jpeg",
             "pen plotter 3'/WhatsApp Image 2026-04-09 at 11.43.14 PM.jpeg",
             "pen plotter 3'/WhatsApp Image 2026-04-09 at 11.43.15 PM.jpeg",
-            "pen plotter 3'/WhatsApp Video 2026-04-09 at 11.43.10 PM.mp4",
-            "pen plotter 3'/WhatsApp Video 2026-04-09 at 11.43.11 PM.mp4",
-            "pen plotter 3'/WhatsApp Video 2026-04-09 at 11.43.16 PM.mp4"
+            "https://drive.google.com/file/d/1t8aNOlWueTXiEUiF6_YREhF6PjYEhaUS/view",
+            "https://drive.google.com/file/d/14Lkbvanpcl6RGt6pfiY_xwGqLCLd0zVA/view",
+            "https://drive.google.com/file/d/1yrLJ7_qtzF_8NXnu786LDqE_M093hr7q/view"
         ]
     },
     {
         "id": 21,
-        "title": "Hand Plotter V4 (Polargraph)",
+        "title": "Hang Plotter V4 (Polargraph)",
         "folder": "hang plotter",
         "year": "2025",
         "date": "2025-2026 · ENGINEERING YEAR 2",
         "category": "college",
         "tags": [
             "POLAR KINEMATICS",
-            "CABLE-DRIVEN",
-            "SAG COMP"
+
+
         ],
         "shortDesc": "Fourth-generation cable-driven wall plotter with real-time sag compensation.",
         "fullDesc": "A polargraph wall plotter that solves the problem of gondola sag through real-time kinematic calculations. As the cables extend, the geometry of the triangle changes; I implemented a sag-aware firmware that adjusts the motor steps based on the calculated weight-tension curve. It can draw murals up to 2 meters wide on any vertical surface, utilizing high-torque steppers and an ESP32-based controller for wireless G-code streaming.",
         "images": [
             "hang plotter/Screenshot 2026-04-10 125106.png",
-            "hang plotter/WhatsApp Video 2026-04-10 at 12.15.57 AM.mp4",
-            "hang plotter/WhatsApp Video 2026-04-10 at 12.15.58 AM.mp4"
+            "https://drive.google.com/file/d/1scD2JMlRauTaNxfDWu4yu_NEMwKAm_Y1/view",
+            "https://drive.google.com/file/d/1OdPXvQl4hw5Y1eQxl9crg5AwKEf48vj8/view"
         ]
     },
     {
@@ -674,16 +669,16 @@ const projects = [
             "cat rover/Base_V5_2025-Nov-08_04-24-27AM-000_CustomizedView2802137486_jpg.jpg",
             "cat rover/Base_V5_2025-Nov-08_04-32-14AM-000_CustomizedView3291554445_jpg.jpg",
             "cat rover/Base_V5_2025-Nov-08_04-34-49AM-000_CustomizedView6851405723_jpg.jpg",
-            "cat rover/cat live-2.mp4",
+            "https://drive.google.com/file/d/1Vcnik-idLdByHgaDm6IUTfwsUOVrkwfz/view",
             "cat rover/IMG20251214155600.jpg",
             "cat rover/IMG20251214155607.jpg",
-            "cat rover/VID20251214153719.mp4",
-            "cat rover/VID20251214154030.mp4",
-            "cat rover/VID20251214155837.mp4",
+            "https://drive.google.com/file/d/1S-dG6e_kdFT0M1sG5uclAfsfleg_5xvR/view",
+            "https://drive.google.com/file/d/1ZCQmHWOHjz0MnJzk1cYJ_kEO8VLBHEG9/view",
+            "https://drive.google.com/file/d/1rX1baI7LE-FBj1ioSMy1CdgGOspe4wZs/view",
             "cat rover/WhatsApp Image 2026-04-10 at 8.35.36 AM.jpeg",
-            "cat rover/WhatsApp Video 2026-04-10 at 8.43.44 AM.mp4",
-            "cat rover/WhatsApp Video 2026-04-10 at 8.43.45 AM.mp4",
-            "cat rover/WhatsApp Video 2026-04-10 at 8.43.46 AM.mp4"
+            "https://drive.google.com/file/d/1RmjW3DxD3hD_DQjzC5ApHwfQTfawRupt/view",
+            "https://drive.google.com/file/d/1nygCKrA-8pikx74-bWFz7GJW7BIbGs32/view",
+            "https://drive.google.com/file/d/1U6YIjO9CRzN1IBCfi4DjKAHF2CjatpNe/view"
         ]
     },
     {
@@ -699,7 +694,7 @@ const projects = [
             "GLOBAL ACCESS"
         ],
         "shortDesc": "High-performance custom 3D printer with globally accessible Klipper firmware and VPN remote control.",
-        "fullDesc": "My current primary manufacturing tool. Built as a CoreXY machine for maximum print speed (up to 200mm/s), it runs Klipper firmware on a Raspberry Pi 4. I configured a Tailscale mesh VPN node on the machine, giving me global monitoring and control via the Moonraker API and Mainsail UI from anywhere in the world. It is a fully industrial-connected manufacturing node, capable of 100+ hour continuous prints with sub-0.05mm tolerances.",
+        "fullDesc": "My current primary manufacturing tool. Built as a CoreXY machine for maximum print speed (up to 200mm/s), it runs Klipper firmware on a old laptop. I configured a Tailscale mesh VPN node on the machine, giving me global monitoring and control via the Moonraker API and Mainsail UI from anywhere in the world. It is a fully industrial-connected manufacturing node, capable of 100+ hour continuous prints with sub-0.05mm tolerances.",
         "images": [
             "printer 2/DV.jpeg",
             "printer 2/DZDC.jpeg",
@@ -712,43 +707,43 @@ const projects = [
             "printer 2/WhatsApp Image 2026-03-20 at 5.37.57 PM.jpeg",
             "printer 2/WhatsApp Image 2026-03-20 at 8.45.20 PM.jpeg",
             "printer 2/WhatsApp Image 2026-04-10 at 8.35.43 AM.jpeg",
-            "printer 2/WhatsApp Video 2026-03-20 at 10.18.56 PM.mp4",
-            "printer 2/WhatsApp Video 2026-03-20 at 5.38.40 PM.mp4",
-            "printer 2/WhatsApp Video 2026-04-10 at 8.35.43 AM.mp4"
+            "https://drive.google.com/file/d/1AL7LLmk6L9xeuxa2-1h-_cjXk3wrzj_J/view",
+            "https://drive.google.com/file/d/1IfX_kG-SyMWlooreL168j-8y9AIsXoDo/view",
+            "https://drive.google.com/file/d/1iPTWShwM_-G4MbUx-ohIFt8nw2cccwvI/view"
         ]
     },
-    {
-        "id": 24,
-        "title": "Planetary Gearbox Actuator",
-        "folder": "gearbox",
-        "year": "2025",
-        "date": "2025-2026 · ENGINEERING YEAR 2",
-        "category": "college",
-        "tags": [
-            "GEARBOX",
-            "ACTUATOR",
-            "TORQUE"
-        ],
-        "shortDesc": "NEMA 17 coupled 35:1 dual planetary stage gearbox for high-torque robotic joints.",
-        "fullDesc": "To achieve the torque densities required for high-performance robot joints without the cost of industrial harmonic drives, I designed this dual-stage planetary reducer. It features a 35.2:1 reduction ratio with a custom-profile involute gear set that I optimized for minimum backlash and maximum tooth-engagement surface area. The entire assembly integrates directly with a NEMA 17 motor and features an integrated output bearing block to handle high radial loads.",
-        "images": []
-    },
-    {
-        "id": 25,
-        "title": "Follower Driver",
-        "folder": "follower driver",
-        "year": "2025",
-        "date": "2025-2026 · ENGINEERING YEAR 2",
-        "category": "college",
-        "tags": [
-            "PCB",
-            "DRIVER",
-            "POWER ELECT"
-        ],
-        "shortDesc": "Custom high-current motor driver board for sub-millisecond control response.",
-        "fullDesc": "Standard motor drivers have inherent propagation delays and current limits that stifle high-speed line following. I designed this 50A peak H-bridge driver board using discrete MOSFETs and a high-speed gate driver IC. The PCB layout was optimized for thermal dissipation and low-inductance switching, achieving a sub-millisecond current-loop response time. This board is what allows my line follower to maintain critical damping even during erratic transition maneuvers.",
-        "images": []
-    }
+    /* {
+         "id": 24,
+         "title": "Planetary Gearbox Actuator",
+         "folder": "gearbox",
+         "year": "2025",
+         "date": "2025-2026 · ENGINEERING YEAR 2",
+         "category": "college",
+         "tags": [
+             "GEARBOX",
+             "ACTUATOR",
+             "TORQUE"
+         ],
+         "shortDesc": "NEMA 17 coupled 35:1 dual planetary stage gearbox for high-torque robotic joints.",
+         "fullDesc": "To achieve the torque densities required for high-performance robot joints without the cost of industrial harmonic drives, I designed this dual-stage planetary reducer. It features a 35.2:1 reduction ratio with a custom-profile involute gear set that I optimized for minimum backlash and maximum tooth-engagement surface area. The entire assembly integrates directly with a NEMA 17 motor and features an integrated output bearing block to handle high radial loads.",
+         "images": []
+     },
+     {
+         "id": 25,
+         "title": "Follower Driver",
+         "folder": "follower driver",
+         "year": "2025",
+         "date": "2025-2026 · ENGINEERING YEAR 2",
+         "category": "college",
+         "tags": [
+             "PCB",
+             "DRIVER",
+             "POWER ELECT"
+         ],
+         "shortDesc": "Custom high-current motor driver board for sub-millisecond control response.",
+         "fullDesc": "Standard motor drivers have inherent propagation delays and current limits that stifle high-speed line following. I designed this 50A peak H-bridge driver board using discrete MOSFETs and a high-speed gate driver IC. The PCB layout was optimized for thermal dissipation and low-inductance switching, achieving a sub-millisecond current-loop response time. This board is what allows my line follower to maintain critical damping even during erratic transition maneuvers.",
+         "images": []
+     }*/
 ];
 
 
@@ -850,7 +845,7 @@ function getDriveId(url) {
 }
 
 function encodeImagePath(path) {
-    if (isYouTube(path) || isGoogleDrive(path) || path.startsWith('http')) return path;
+    if (isYouTube(path) || isGoogleDrive(path)) return path;
     return path.split('/').map(encodeURIComponent).join('/').replace(/'/g, '%27');
 }
 
@@ -886,16 +881,16 @@ window.openProject = function (id) {
                     <div class="gallery-item video-container">
                         <iframe class="project-video youtube-embed" src="https://www.youtube.com/embed/${id}" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
                     </div>`;
-            } else if (isGoogleDrive(url)) {
-                const id = getDriveId(url);
-                galleryHtml += `
-                    <div class="gallery-item video-container">
-                        <iframe class="project-video drive-embed" src="https://drive.google.com/file/d/${id}/preview" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
-                    </div>`;
             } else if (isVideo(url)) {
                 galleryHtml += `
                     <div class="gallery-item video-container">
                         <video src="${url}" controls muted preload="auto" loop playsinline class="project-video"></video>
+                    </div>`;
+            } else if (isGoogleDrive(url)) {
+                const driveId = getDriveId(url);
+                galleryHtml += `
+                    <div class="gallery-item video-container">
+                        <iframe src="https://drive.google.com/file/d/${driveId}/preview" width="100%" height="400" frameborder="0" allow="autoplay" allowfullscreen></iframe>
                     </div>`;
             } else {
                 galleryHtml += `
@@ -970,19 +965,10 @@ function buildTimeline() {
         let thumbContentHtml = '';
         let thumbPreviewHtml = '';
 
-        if (thumbUrl && isYouTube(thumbUrl)) {
-            const id = getYouTubeId(thumbUrl);
-            const previewUrl = `https://img.youtube.com/vi/${id}/mqdefault.jpg`;
-            thumbContentHtml = `<div class="event-thumb" style="background-image:url('${previewUrl}')"></div>`;
-            thumbPreviewHtml = `<div class="preview-thumb" style="background-image:url('${previewUrl}')"></div>`;
-        } else if (thumbUrl && isGoogleDrive(thumbUrl)) {
-            const previewUrl = `assets/profile.jpg`; // Fallback photo
-            thumbContentHtml = `<div class="event-thumb" style="background-image:url('${previewUrl}'); opacity: 0.5;"></div>`;
-            thumbPreviewHtml = `<div class="preview-thumb" style="background-image:url('${previewUrl}'); opacity: 0.5;"></div>`;
-        } else if (thumbUrl && !thumbIsVideo) {
+        if (thumbUrl && !thumbIsVideo) {
             thumbContentHtml = `<div class="event-thumb" style="background-image:url('${thumbUrl}')"></div>`;
             thumbPreviewHtml = `<div class="preview-thumb" style="background-image:url('${thumbUrl}')"></div>`;
-        } else if (thumbUrl && (thumbIsVideo || thumbUrl.startsWith('http'))) {
+        } else if (thumbUrl && thumbIsVideo) {
             thumbContentHtml = `<video class="event-thumb" src="${thumbUrl}" autoplay muted loop playsinline style="object-fit:cover; pointer-events:none;"></video>`;
             thumbPreviewHtml = `<video class="preview-thumb" src="${thumbUrl}" autoplay muted loop playsinline style="object-fit:cover; pointer-events:none;"></video>`;
         } else {
