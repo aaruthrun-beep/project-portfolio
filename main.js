@@ -40,7 +40,7 @@ const TESLA_QUOTES = [
 const projects = [
     {
         "id": 1,
-        "title": "Smart Rover Monitoring,
+        "title": "Smart Rover Monitoring",
         "folder": "smart rover",
         "year": "2018",
         "date": "2018 · GRADE 7",
@@ -50,7 +50,7 @@ const projects = [
 
         ],
         "shortDesc": "My first mechatronics build — a wired manually controlled rover using salvaged RO pump motors and discrete transistor circuits.",
-        "fullDesc": "This project marks my first hands-on experience in mechatronics, built during Grade 7 using salvaged components from a discarded RO water purifier.\n\nThe rover was powered by 12V DC motors taken from RO pump systems. Motion control was achieved through a wired setup using toggle switches, where polarity reversal was used to control direction (forward and reverse).\n\nMotor driving was implemented using basic transistor-based switching circuits, as dedicated motor driver ICs were not used.\n\nI also experimented with simple environmental sensing circuits using BC547 transistors configured in amplification stages to detect changes in temperature, moisture, and fire conditions. These were not highly accurate but were able to indicate environmental variations.\n\nThe entire system was manually fabricated and assembled without prior formal knowledge of electronics or robotics.\n\nThis project introduced me to fundamental concepts such as DC motor control, polarity switching, basic analog electronics, and system-level integration."
+        "fullDesc": "This project marks my first hands-on experience in mechatronics, built during Grade 7 using salvaged components from a discarded RO water purifier.\n\nThe rover was powered by 12V DC motors taken from RO pump systems. Motion control was achieved through a wired setup using toggle switches, where polarity reversal was used to control direction (forward and reverse).\n\nMotor driving was implemented using basic transistor-based switching circuits, as dedicated motor driver ICs were not used.\n\nI also experimented with simple environmental sensing circuits using BC547 transistors configured in amplification stages to detect changes in temperature, moisture, and fire conditions. These were not highly accurate but were able to indicate environmental variations.\n\nThe entire system was manually fabricated and assembled without prior formal knowledge of electronics or robotics.\n\nThis project introduced me to fundamental concepts such as DC motor control, polarity switching, basic analog electronics, and system-level integration.",
 
         "images": [
             "smart rover/IMG-20200831-WA0003.jpg",
@@ -140,7 +140,7 @@ const projects = [
             "ITERATIVE DESIGN"
         ],
         "shortDesc": "Built 4 buttermilk machines using a sealed stainless steel drum with a motor-driven churning system at ~180 RPM.",
-        "fullDesc": "During the COVID lockdown, I observed my grandmother manually churning buttermilk for around 30 minutes every morning. I analyzed the process to determine a suitable rotational speed for consistent churning without excessive aeration.\n\nI designed a compact buttermilk making machine using a food-grade sealed stainless steel drum with a motor-driven shaft operating at approximately 180 RPM. The system was kept simple and reliable, with direct coupling between the motor and the churning mechanism, making it easy to use and maintain for non-technical users.\n\nAfter successfully building the first unit for home use, I produced three additional units for relatives based on demand. This project was my first experience with practical product design, iterative improvements, and low-volume manufacturing."
+        "fullDesc": "During the COVID lockdown, I observed my grandmother manually churning buttermilk for around 30 minutes every morning. I analyzed the process to determine a suitable rotational speed for consistent churning without excessive aeration.\n\nI designed a compact buttermilk making machine using a food-grade sealed stainless steel drum with a motor-driven shaft operating at approximately 180 RPM. The system was kept simple and reliable, with direct coupling between the motor and the churning mechanism, making it easy to use and maintain for non-technical users.\n\nAfter successfully building the first unit for home use, I produced three additional units for relatives based on demand. This project was my first experience with practical product design, iterative improvements, and low-volume manufacturing.",
         "images": [
             "butter mil making mac hine/WhatsApp Image 2026-04-09 at 4.59.15 PM.jpeg",
             "butter mil making mac hine/WhatsApp Image 2026-04-09 at 4.59.27 PM.jpeg",
@@ -161,7 +161,7 @@ const projects = [
             "MECHANICS"
         ],
         "shortDesc": "Manual agricultural weeder designed for precise inter-row topsoil agitation.",
-        "fullDesc": "To solve the problem of quick weed control in narrow crop rows, I designed this manual weeder. It uses a single large-diameter wheel to reduce rolling resistance on rough soil while concentrating the user's pushing force onto a set of interchangeable scraping tilling blades. The geometry was optimized for an upright posture to reduce lower-back strain. This project was my first venture into agricultural ergonomics, proving that even a tool with no motor requires precise mechanical design to be effective."
+        "fullDesc": "To solve the problem of quick weed control in narrow crop rows, I designed this manual weeder. It uses a single large-diameter wheel to reduce rolling resistance on rough soil while concentrating the user's pushing force onto a set of interchangeable scraping tilling blades. The geometry was optimized for an upright posture to reduce lower-back strain. This project was my first venture into agricultural ergonomics, proving that even a tool with no motor requires precise mechanical design to be effective.",
         "images": [
             "single wheel weeder/IMG-20210306-WA0011.jpg",
             "single wheel weeder/IMG-20210306-WA0012.jpg",
