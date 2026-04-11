@@ -856,15 +856,8 @@ body::before {
     border-radius: var(--radius-sm);
 }
 
-.video-container video,
-.video-container iframe {
+.video-container video {
     width: 100%;
-}
-
-.gallery-item iframe.youtube-embed {
-    aspect-ratio: 16 / 9;
-    width: 100%;
-    border-radius: var(--radius-sm);
 }
 
 /* Overlay accent band at top */
