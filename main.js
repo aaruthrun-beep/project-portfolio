@@ -92,7 +92,7 @@ const projects = [
     {
         "id": 3,
         "title": "Vale Kuttu (Multi-Tool)",
-        "folder": "veel koothu",
+        "folder": "vel koothu",
         "year": "2019",
         "date": "2019-2020 · GRADE 8",
         "category": "school",
